@@ -67,7 +67,9 @@
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+/* input[type="text"] */
+.main-page__input-wrap_input,
+.main-page__tasks-list_input-task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -79,7 +81,9 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type="text"]:focus {
+/* input[type="text"]:focus */
+.main-page__input-wrap_input:focus,
+.main-page__tasks-list_input-task:focus{
   color: #333;
 }
 
@@ -106,16 +110,16 @@ input[type="text"]:focus {
   vertical-align: middle;
 }
 
-.main-page__tasks-list_list-item > input[type="checkbox"] {
+.main-page__tasks-list_list-item > .main-page__tasks-list_input {
   margin: 0 10px;
 }
-.main-page__tasks-list_list-item > label {
+.main-page__tasks-list_list-item > .main-page__tasks-list_label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.main-page__tasks-list_list-item >    input[type="text"] {
+.main-page__tasks-list_list-item >    .main-page__tasks-list_input-task {
   width: 226px
 }
 .main-page__tasks-list_delete-btn {
@@ -128,21 +132,21 @@ input[type="text"]:focus {
 }
 
 /* Completed */
-.main-page__tasks-list#completed-tasks label {
+.main-page__tasks-list#completed-tasks .main-page__tasks-list_label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
-.main-page__tasks-list .main-page__tasks-list_list-item input[type=text] {
+.main-page__tasks-list .main-page__tasks-list_list-item .main-page__tasks-list_input-task {
   display:none
 }
 
-.main-page__tasks-list .main-page__tasks-list_list-item.main-page__tasks-list_list-item_edit-mode input[type=text] {
+.main-page__tasks-list .main-page__tasks-list_list-item.main-page__tasks-list_list-item_edit-mode .main-page__tasks-list_input-task {
   display:inline-block;
   width:224px
 }
 
-.main-page__tasks-list .main-page__tasks-list_list-item.main-page__tasks-list_list-item_edit-mode label {
+.main-page__tasks-list .main-page__tasks-list_list-item.main-page__tasks-list_list-item_edit-mode .main-page__tasks-list_label {
   display:none;
 }
