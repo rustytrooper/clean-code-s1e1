@@ -4,15 +4,18 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
@@ -22,29 +25,36 @@
   text-align: center;
 }
 }
+
 .main-page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .main-page__input-wrap_input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .main-page__input-wrap {
   display: flex;
 }
+
 .main-page__tasks-list {
   margin: 0;
   padding: 0px;
 }
+
 .main-page__tasks-list_list-item, .main-page__header {
   list-style: none;
 }
+
 .main-page__tasks-list, .main-page__add-btn, .main-page__tasks-list_edit-btn, .main-page__tasks-list_delete-btn{
   outline: none;
 }
+
 .main-page__add-btn, .main-page__tasks-list_edit-btn, .main-page__tasks-list_delete-btn {
   background: none;
   border: 0px;
@@ -54,10 +64,12 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .main-page__add-btn:hover, .main-page__tasks-list_edit-btn:hover, .main-page__tasks-list_delete-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
+
 .main-page__header,
 .main-page__label {
   color: #333;
@@ -68,7 +80,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-/* input[type="text"] */
+
 .main-page__input-wrap_input,
 .main-page__tasks-list_input-task {
   margin: 0;
@@ -82,7 +94,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-/* input[type="text"]:focus */
+
 .main-page__input-wrap_input:focus,
 .main-page__tasks-list_input-task:focus{
   color: #333;
@@ -93,6 +105,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .main-page__input-wrap_input {
   width: 318px;
 }
@@ -106,6 +119,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .main-page__tasks-list_list-item > * {
   vertical-align: middle;
 }
@@ -113,20 +127,24 @@
 .main-page__tasks-list_list-item > .main-page__tasks-list_input {
   margin: 0 10px;
 }
+
 .main-page__tasks-list_list-item > .main-page__tasks-list_label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .main-page__tasks-list_list-item > .main-page__tasks-list_input-task {
   width: 226px;
 }
+
 .main-page__tasks-list_delete-btn {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .main-page__tasks-list_delete-btn:hover {
   transform: rotateZ(0deg);
 }
